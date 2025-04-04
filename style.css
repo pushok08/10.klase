@@ -40,20 +40,19 @@ body {
 
 .input-group {
     width: 100%;
-    flex: ;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.button-group{
+.button-group {
     width: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     margin-top: 10px;
 }
 
-input, button{
+inout, button {
     margin: 5px 0;
     padding: 10px;
     border: 1px solid #cccccc;
@@ -62,30 +61,30 @@ input, button{
 
 button {
     width: 93%;
-    background: #817dc2;
+    background: #007bff;
     color: white;
     cursor: pointer;
 }
 
-
-button {
-    width: 90;
+input {
+    width: 90%;
     padding: 8px;
-    border: 1px solid #cccccc;
+    border: 1px solid #5e5e5e;
     border-radius: 10px;
     text-align: center;
 }
 
-#results{
+#results {
     width: 45%;
-    background: rgb(213, 136, 223);
+    background: #b4daa6;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+
 }
 
-result-row {
+.result-row {
     display: flex;
     justify-content: space-between;
     width: 100%;
